@@ -1,0 +1,72 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    background-image: url("i4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  
+  
+  .card-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+    width: 200px;
+    height: 200px;
+    opacity:0.8;
+  }
+
+  .card:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.card:active {
+    opacity: 1; 
+    background-color: rgba(0, 0, 0, 0.2); 
+}
+  
+  .card:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+  }
+  
+  .card h1, .card h2 {
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .card h1 {
+    font-size: 1.2em;
+  }
+  
+  .card h2 {
+    font-size: 1em;
+    color: #666;
+  }
+  
+  
+  .card.form { background-color: #e0f7fa; }
+  .card.qa { background-color: #e8f5e9; }
+  .card.guided-tour { background-color: #fff3e0; }
+  .card.facilities { background-color: #fce4ec; }
+  .card.weblinks { background-color: #e3f2fd; }
+  .card.visit-robomiracle { background-color: #f1f8e9; }
+  

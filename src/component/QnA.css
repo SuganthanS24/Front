@@ -1,0 +1,100 @@
+.qna {
+    font-family: Arial, sans-serif;
+}
+
+.cont {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.qa-form {
+    display: flex;
+    justify-content: space-between;
+}
+
+.qa-right {
+    flex: 1;
+}
+
+.qa-left {
+    flex: 1;
+}
+
+.question-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.question-input label {
+    margin-right: 10px;
+}
+
+.question-input input {
+    flex: 1;
+}
+
+.remove-question {
+    margin-left: 10px;
+    background: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.remove-question:hover {
+    background: #d32f2f;
+}
+
+#addQuestion {
+    margin-top: 10px;
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#addQuestion:hover {
+    background: #388e3c;
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background: #0056b3;
+}
+
+.back-btn {
+    margin-top: 20px;
+    background: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    background: #1976d2;
+}
+
+.responses {
+    margin-top: 20px;
+    white-space: pre-wrap;
+}
