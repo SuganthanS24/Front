@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './SliderAndCards.css'; // Create a new CSS file for combined styling
-import ChatRecorder from './indexrec';
+// import ChatRecorder from './indexrec';
 
 
 const slides = [
@@ -105,7 +105,7 @@ const SliderAndCards = () => (
     <Slider />
     <Cards />
     <div className="recorder-input-wrapper">
-        <ChatRecorder/>
+{/*         <ChatRecorder/> */}
       </div>
   </div>
 );
