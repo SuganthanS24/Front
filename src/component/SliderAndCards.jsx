@@ -100,15 +100,15 @@ const Cards = () => (
   </div>
 );
 
-// const SliderAndCards = () => (
-//   <div className="contain">
-//     <Slider />
-//     <Cards />
-//     <div className="recorder-input-wrapper">
-//         <ChatRecorder/>
-//       </div>
-//   </div>
-// );
+const SliderAndCards = () => (
+  <div className="contain">
+    <Slider />
+    <Cards />
+    <div className="recorder-input-wrapper">
+        <ChatRecorder/>
+      </div>
+  </div>
+);
 
 export default SliderAndCards;
 
