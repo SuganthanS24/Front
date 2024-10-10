@@ -165,9 +165,9 @@ const SliderAndCards = () => {
         <div className="recorder-input-wrapper">
           <ChatRecorder />
         </div>
-        <button className="edit-button" onClick={() => setShowFileInput(!showFileInput)}>
+{/*         <button className="edit-button" onClick={() => setShowFileInput(!showFileInput)}>
           {showFileInput ? 'Cancel' : 'Edit Slides'}
-        </button>
+        </button> */}
         {showFileInput && (
           <input type="file" accept="image/*" multiple onChange={handleImageUpload} />
         )}
